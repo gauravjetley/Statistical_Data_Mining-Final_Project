@@ -1,0 +1,25 @@
+{
+    "contents" : "",
+    "created" : 1447438554043.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "D1D9F7F2",
+    "lastKnownWriteTime" : 21392300099829876,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "j69wm1y70e",
+        "caption" : "arsp",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=arsp&cache_key=j69wm1y70e",
+        "displayedObservations" : 59,
+        "environment" : "",
+        "object" : "arsp",
+        "totalObservations" : 59,
+        "variables" : 3
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

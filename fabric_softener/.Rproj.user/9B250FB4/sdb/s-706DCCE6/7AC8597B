@@ -1,0 +1,25 @@
+{
+    "contents" : "",
+    "created" : 1447437837392.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "7AC8597B",
+    "lastKnownWriteTime" : 21392300099829876,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "7ncrnvpt6n",
+        "caption" : "brsinfo",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=brsinfo&cache_key=7ncrnvpt6n",
+        "displayedObservations" : 59,
+        "environment" : "",
+        "object" : "brsinfo",
+        "totalObservations" : 59,
+        "variables" : 11
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}
