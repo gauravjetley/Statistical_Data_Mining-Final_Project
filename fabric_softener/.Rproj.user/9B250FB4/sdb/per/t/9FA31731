@@ -1,0 +1,18 @@
+{
+    "contents" : "Type A: FINAL PROJECT NOT INVOLVING LEADA MODULES\n\nDATASET: SEE fabric_softener.zip\n\nThis contains a read-me file that explains the relevant files and directions about how to properly clean the data.\n\nObjective: \n- Build a predictive model for SKU purchases at the household and weekly level. \n- Use the hold out set to validate the model as in the Hardie and Fader paper (see the read-me again). \n- Ideally you would compare different model based on the in and out of sample predictive checks.\n\nInclude: \n(a) Visualizations of temporal and household level variation in SKU choices, \n(b) evaluations of the importance of pricing and promotions, \n(c) evaluations of the importance of the different attributes for each SKU (to this aim, \n    you may have to code the attributes with an appropriate set of dummies).\n\nReport: 20 pages at most including text, figures and tables. Moreover, include the code in the appendix.\n\nGrading: it will be based on a combination of \n1) clarity of exposition \n2) soundness of the approach \n3) strength of the results and \n4) reproducibility (meaning ability to replicate your approach by running the attached code). \nI will score your project in each of the area on the range between 0 and 5 for a total of 20 points.\n\nYou can work alone or in teams (up to 3 people), but you must disclose the people you worked with and you should\nupload your final report even if you worked in a team (you must upload the report individually).",
+    "created" : 1447936410709.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2088267028",
+    "id" : "9FA31731",
+    "lastKnownWriteTime" : 1447936702,
+    "path" : "~/Studies/Courses/USF/Statistical Data Mining/Final Project/fabric_softener/Project Description.txt",
+    "project_path" : "Project Description.txt",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "type" : "text"
+}
