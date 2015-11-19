@@ -72,18 +72,19 @@ arsp[,2] <- sprintf("%03d",arsp[,2])
 View(brsinfo)
 # Getting rid of Formula1 col
 brsinfo <- brsinfo[,c(1,2,3,4,6,7,8,9,10,11)]
+brsinfo <- brsinfo[,c(1,3,4,5,6)]
+# Creating Dummy Variables
+brsinfo <- cbind2(brsinfo, model.matrix(~brand -1,brsinfo))
+brsinfo <- cbind2(brsinfo, model.matrix(~form -1,brsinfo))
+brsinfo <- cbind2(brsinfo, model.matrix(~formula2 -1,brsinfo))
+brsinfo <- cbind2(brsinfo, model.matrix(~size -1,brsinfo))
 
 
 ####################
-# Making one dataset
+# Making dataset
 ####################
-plot(as.numeric(d1pur$iri_week),as.numeric(d1pur$HH_id))
-
-hist(as.numeric(d1pur$iri_week))
-
-
-
-
+# Combining brsinfo and arsp
+arsp_brs <- cbind2(arsp,brsinfo)
 
 
 

@@ -1,25 +1,25 @@
 {
     "contents" : "",
-    "created" : 1447438554043.000,
+    "created" : 1447928190777.000,
     "dirty" : false,
     "encoding" : "",
     "folds" : "",
     "hash" : "0",
-    "id" : "D1D9F7F2",
+    "id" : "BF669216",
     "lastKnownWriteTime" : 21392300099829876,
     "path" : null,
     "project_path" : null,
     "properties" : {
-        "cacheKey" : "j69wm1y70e",
-        "caption" : "arsp",
-        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=arsp&cache_key=j69wm1y70e",
+        "cacheKey" : "r48zzauqc4",
+        "caption" : "brsinfo",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=brsinfo&cache_key=r48zzauqc4",
         "displayedObservations" : 59,
         "environment" : "",
-        "object" : "arsp",
+        "object" : "brsinfo",
         "totalObservations" : 59,
-        "variables" : 3
+        "variables" : 10
     },
-    "relative_order" : 5,
+    "relative_order" : 4,
     "source_on_save" : false,
     "type" : "r_dataframe"
 }
