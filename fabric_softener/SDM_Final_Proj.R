@@ -250,11 +250,12 @@ weeklydatav2 <- read.csv("weeklydatav2.csv")
 # lm1 <- lm(sales ~ IRIweek+as.factor(`SKU#`)+lagsales+ARSP+APP+ARP+APC+as.factor(season)+as.factor(month),data=weeklydatav2)
 # summary(lm1)
 # plot(lm1)
-
+write.csv(weeklydatav2,"weeklydatav2.csv",row.names = F)
 ## Making Train and Test datasets
 weeklytrain <- weeklydatav2[1:3068,]
 weeklytest  <- weeklydatav2[3069:4602,]
-
+write.csv(weeklytrain,"weeklytrain.csv",row.names = F)
+write.csv(weeklytest,"weeklytest.csv",row.names = F)
 # lm1 <- lm(sales ~ IRIweek+as.factor(SKU.)+lagsales+ARSP+APP+ARP+APC+as.factor(brand)+as.factor(form)+
 #             as.factor(formula)+as.factor(size)+as.factor(display)+as.factor(feature)+as.factor(month)+
 #             as.factor(season),data=weeklytrain)
@@ -404,7 +405,7 @@ for (i in hh) {
 
 hhdatatrainv2 <- hhdatatrainv1
 
-
+write.csv(hhdatatrainv2,"hhdatatrainv2.csv",row.names = F)
 
 
 
@@ -540,6 +541,7 @@ for (i in hh) {
 # Removing SKU 16 from dataset as test set doesnt have SKU #16
 hhdatatestv2 <- hhdatatestv1[hhdatatestv1$`SKU#`!=16,]
 
+write.csv(hhdatatestv2,"hhdatatestv2.csv",row.names = F)
 
 
 # Full Dataset
@@ -669,9 +671,7 @@ for (i in hh) {
   }
 }
 
-## Making Train and Test datasets
-weeklytrain <- weeklydatav2[1:3068,]
-weeklytest  <- weeklydatav2[3069:4602,]
+write.csv(hhdatav1,"hhdatav1.csv",row.names = F)
 
 
 
