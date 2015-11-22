@@ -1,0 +1,25 @@
+{
+    "contents" : "",
+    "created" : 1448211386943.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "9BAD007B",
+    "lastKnownWriteTime" : 7011605692497750387,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "vi29wmksf8",
+        "caption" : "hhdatatestv2",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=hhdatatestv2&cache_key=vi29wmksf8",
+        "displayedObservations" : "33264",
+        "environment" : "",
+        "object" : "hhdatatestv2",
+        "totalObservations" : "33264",
+        "variables" : "16"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

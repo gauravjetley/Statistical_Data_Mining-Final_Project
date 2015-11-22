@@ -26,3 +26,9 @@ I will score your project in each of the area on the range between 0 and 5 for a
 
 You can work alone or in teams (up to 3 people), but you must disclose the people you worked with and you should
 upload your final report even if you worked in a team (you must upload the report individually).
+
+**Update**
+And to remark it again: I am expecting a cogent piece of statistical data mining involving 
+(a) visualization 
+(b) description of the methodology (data preparation, cleaning and analysis) and 
+(c) analysis of results EVEN IF NEGATIVE.

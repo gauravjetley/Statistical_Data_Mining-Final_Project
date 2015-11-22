@@ -1,0 +1,25 @@
+{
+    "contents" : "",
+    "created" : 1448211380283.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "BAB1517C",
+    "lastKnownWriteTime" : 21392300099829876,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "0pd1ksnc8g",
+        "caption" : "hhdatatrainv2",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=hhdatatrainv2&cache_key=0pd1ksnc8g",
+        "displayedObservations" : "35046",
+        "environment" : "",
+        "object" : "hhdatatrainv2",
+        "totalObservations" : "35046",
+        "variables" : "16"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}
